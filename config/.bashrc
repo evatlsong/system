@@ -112,4 +112,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export PATH=$PATH:/opt/Qt5.1.1/5.1.1/gcc_64/bin
+export PATH=$PATH:/opt/Qt5/5.1.1/gcc_64/bin
