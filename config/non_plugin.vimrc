@@ -6,6 +6,7 @@ filetype off
 set nu!   "打开行号
 set nowrap       "自动折行
 
+
 "开启语法高亮设置
 if !exists("syntax_on")
 syntax on
@@ -27,35 +28,5 @@ set hlsearch        "高亮搜索
 set autochdir       "自动切换工作目录
 "自动载入 _vimrc，修改后不需要重启
 autocmd! bufwritepost _vimrc source %
-
-" Vundle start (manager the plugin)
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
-
-" My Bundles here:
-"
-" original repos on github
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'tpope/vim-rails.git'
-" vim-scripts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-" non github repos
-Bundle 'git://git.wincent.com/command-t.git'
-" ...
-
 filetype plugin indent on     " required!
-"
-" Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
-"
-" see :h vundle for more details or wiki for FAQ
+
