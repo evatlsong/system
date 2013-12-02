@@ -1,4 +1,8 @@
+colorscheme desert
+set guioptions-=m
+set guioptions-=T
 set encoding=utf-8
+set langmenu=zh_CN.UTF-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 set nocompatible  "关闭与VI的兼容
@@ -25,6 +29,12 @@ set ruler           "在编辑过程中，在右下角显示光标位置的状�
 set incsearch       "搜索自动定位
 set hlsearch        "高亮搜索
 set autochdir       "自动切换工作目录
+set tags+=~/.vim/systags
+
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+
+
 "自动载入 _vimrc，修改后不需要重启
 autocmd! bufwritepost _vimrc source %
 
@@ -48,6 +58,7 @@ Bundle 'L9'
 Bundle 'FuzzyFinder'
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'https://github.com/vim-scripts/taglist.vim.git'
 " ...
 
 filetype plugin indent on     " required!
