@@ -2,9 +2,10 @@
 
 #
 # File: ctags.sh
-# Author: zhankunlin
+# Author: evatlsong
 # Date: 2011-11-30
 # Desc: ctags 生成系统库以及ACE, SQLITE, ORACLE相关函数的tags, 存放于 ~/.vim/systags 文件中
+# useage: 首先下载ctags sudo apt-get install exuberant-ctags
 #
 
 #mkdir -p ~/.vim;

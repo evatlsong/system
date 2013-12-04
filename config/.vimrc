@@ -1,19 +1,20 @@
+set nocompatible  "关闭与VI的兼容
+
 colorscheme desert
 set guioptions-=m
 set guioptions-=T
+
 set encoding=utf-8
 set langmenu=zh_CN.UTF-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
-
-set nocompatible  "关闭与VI的兼容
-filetype off
-set nu!   "打开行号
-set nowrap       "自动折行
 
 "开启语法高亮设置
 if !exists("syntax_on")
 syntax on
 endif
+
+set nu!   "打开行号
+set nowrap       "自动折行
 set filetype=c      "设置默认语言为C
 set tabstop=4       "设置tab距离为4
 set softtabstop=4
@@ -29,39 +30,14 @@ set ruler           "在编辑过程中，在右下角显示光标位置的状�
 set incsearch       "搜索自动定位
 set hlsearch        "高亮搜索
 set autochdir       "自动切换工作目录
-set tags+=~/.vim/systags
-
-let Tlist_Show_One_File=1
-let Tlist_Exit_OnlyWindow=1
-
 
 "自动载入 _vimrc，修改后不需要重启
 autocmd! bufwritepost _vimrc source %
 
-" Vundle start (manager the plugin)
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
-
-" My Bundles here:
+"                    vundle
 "
-" original repos on github
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'tpope/vim-rails.git'
-" vim-scripts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-" non github repos
-Bundle 'git://git.wincent.com/command-t.git'
-Bundle 'https://github.com/vim-scripts/taglist.vim.git'
-" ...
-
-filetype plugin indent on     " required!
+" git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+" Launch vim, run :BundleInstall (or vim +BundleInstall +qall for CLI lovers)
 "
 " Brief help
 " :BundleList          - list configured bundles
@@ -70,3 +46,29 @@ filetype plugin indent on     " required!
 " :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
 "
 " see :h vundle for more details or wiki for FAQ
+"
+" Vundle start (manager the plugin)
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" My Bundles here:
+Bundle 'https://github.com/vim-scripts/taglist.vim.git'
+Bundle 'https://github.com/vim-scripts/cscope.vim.git'
+
+filetype plugin indent on     " required!
+"
+""""""""""""" end vundle
+
+" needs install plugin use vundle
+
+" taglist
+set tags+=~/.vim/systags
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+
