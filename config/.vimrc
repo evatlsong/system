@@ -61,6 +61,7 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 Bundle 'https://github.com/vim-scripts/taglist.vim.git'
 Bundle 'https://github.com/vim-scripts/cscope.vim.git'
+Bundle 'https://github.com/vim-scripts/OmniCppComplete.git'
 
 filetype plugin indent on     " required!
 "
@@ -73,3 +74,23 @@ set tags+=~/.vim/systags
 let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 
+function Do_CsTag()
+    if(executable('cscope') && has("cscope") )
+        if(g:iswindows!=1)
+            silent! execute "!find . -name '*.h' -o -name '*.c' -o -name '*.cpp' -o -name '*.java' -o -name '*.cs' > cscope.files"
+        else
+            silent! execute "!dir /b *.c,*.cpp,*.h,*.java,*.cs >> cscope.files"
+        endif
+        silent! execute "!cscope -b"
+        if filereadable("cscope.out")
+            execute "cs add cscope.out"
+        endif
+    endif
+endf
+
+if has("cscope")
+    set cscopequickfix=s-,c-,d-,i-,t-,e-
+    set csto=0
+    set cst
+    set csverb
+endif

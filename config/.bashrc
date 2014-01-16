@@ -113,3 +113,5 @@ if ! shopt -oq posix; then
   fi
 fi
 # export PATH=$PATH:/opt/Qt5/5.1.1/gcc_64/bin
+export PATH=$PATH:/home/evatlsong/system/script
+export LD_LIBRARY_PATH="/usr/local/lib/"
