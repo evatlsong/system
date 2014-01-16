@@ -71,6 +71,8 @@ filetype plugin indent on     " required!
 
 " taglist
 set tags+=~/.vim/systags
+set tags=tags;
+set autochdir
 let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 
