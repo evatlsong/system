@@ -61,7 +61,8 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 Bundle 'https://github.com/vim-scripts/taglist.vim.git'
 Bundle 'https://github.com/vim-scripts/cscope.vim.git'
-Bundle 'https://github.com/vim-scripts/OmniCppComplete.git'
+" Bundle 'https://github.com/vim-scripts/OmniCppComplete.git'
+Bundle 'https://github.com/Rip-Rip/clang_complete.git'
 
 filetype plugin indent on     " required!
 "
@@ -71,8 +72,10 @@ filetype plugin indent on     " required!
 
 " taglist
 set tags+=~/.vim/systags
-set tags=tags;
-set autochdir
+"set tags+=/usr/include/qt4/tags
+"set tags=tags;
+set cscopequickfix=s-,c-,d-,i-,t-,e- 
+
 let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 
