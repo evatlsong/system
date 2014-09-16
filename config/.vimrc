@@ -62,6 +62,7 @@ Bundle 'https://github.com/vim-scripts/taglist.vim.git'
 "Bundle 'https://github.com/vim-scripts/OmniCppComplete.git'
 Bundle 'https://github.com/Rip-Rip/clang_complete.git'
 Bundle 'plasticboy/vim-markdown'
+Bundle 'https://github.com/terryma/vim-multiple-cursors.git'
 
 filetype plugin indent on     " required!
 "
@@ -82,3 +83,4 @@ let Tlist_Exit_OnlyWindow=1
 let g:vim_markdown_folding_disabled=1
 let g:vim_markdown_initial_foldlevel=1
 " vim-markdown config end
+
