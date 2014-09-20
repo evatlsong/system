@@ -1,0 +1,86 @@
+set nocompatible 
+
+colorscheme desert
+set guioptions-=m
+set guioptions-=T
+
+language messages en_US.UTF-8 "set message encode
+set encoding=utf-8
+set langmenu=en_US.UTF-8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+
+if !exists("syntax_on")
+syntax on
+endif
+
+set nu!   "open number line
+set nowrap       
+set filetype=c      
+set tabstop=4       
+set softtabstop=4
+set shiftwidth=4    
+set expandtab
+set cindent         
+set smartindent     
+set autoindent      
+set ai!             
+set nocp            
+set backspace=indent,eol,start 
+set ruler           
+set incsearch     
+set hlsearch   
+set autochdir 
+
+autocmd! bufwritepost _vimrc source %
+
+"                    vundle
+"
+" git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+" Launch vim, run :BundleInstall (or vim +BundleInstall +qall for CLI lovers)
+"
+" Brief help
+" :BundleList          - list configured bundles
+" :BundleInstall(!)    - install(update) bundles
+" :BundleSearch(!) foo - search(or refresh cache first) for foo
+" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+"
+" see :h vundle for more details or wiki for FAQ
+"
+" Vundle start (manager the plugin)
+filetype off
+
+"set rtp+=~/.vim/bundle/vundle/
+"call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+"Bundle 'gmarik/vundle'
+
+" My Bundles here:
+"Bundle 'https://github.com/vim-scripts/taglist.vim.git'
+"Bundle 'https://github.com/vim-scripts/cscope.vim.git'
+"Bundle 'https://github.com/vim-scripts/OmniCppComplete.git'
+"Bundle 'https://github.com/Rip-Rip/clang_complete.git'
+"Bundle 'plasticboy/vim-markdown'
+"Bundle 'https://github.com/terryma/vim-multiple-cursors.git'
+
+"filetype plugin indent on     " required!
+"
+""""""""""""" end vundle
+
+" needs install plugin use vundle
+
+" taglist
+" set tags+=~/.vim/systags
+"set tags+=/usr/include/qt4/tags
+"set tags=tags;
+"set cscopequickfix=s-,c-,d-,i-,t-,e- 
+
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+
+" vim-markdown config start
+"let g:vim_markdown_folding_disabled=1
+"let g:vim_markdown_initial_foldlevel=1
+" vim-markdown config end
+
