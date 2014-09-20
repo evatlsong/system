@@ -57,7 +57,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
-Bundle 'https://github.com/vim-scripts/taglist.vim.git'
+"Bundle 'https://github.com/vim-scripts/taglist.vim.git'
 "Bundle 'https://github.com/vim-scripts/cscope.vim.git'
 "Bundle 'https://github.com/vim-scripts/OmniCppComplete.git'
 Bundle 'https://github.com/Rip-Rip/clang_complete.git'
