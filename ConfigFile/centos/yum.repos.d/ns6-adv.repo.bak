@@ -1,0 +1,23 @@
+[nk6-adv-lic-os]
+name=NeoKylin Linux Advanced Server 6 - Os
+baseurl=ftp://nsupdate:nsupdate@ftp.cs2c.com.cn/NS/6/os/adv-lic/$basearch/
+
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-neokylin-release
+enabled=1
+
+[nk6-adv-lic-updates]
+name=NeoKylin Linux Advanced Server 6 - Updates
+baseurl=ftp://nsupdate:nsupdate@ftp.cs2c.com.cn/NS/6/updates/adv-lic/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-neokylin-release
+enabled=1
+
+[nk6-adv-lic-addons]
+name=NeoKylin Linux Advanced Server 6 - Addons
+baseurl=ftp://nsupdate:nsupdate@ftp.cs2c.com.cn/NS/6/addons/adv-lic/$basearch/
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-neokylin-release
+enabled=0
+
+

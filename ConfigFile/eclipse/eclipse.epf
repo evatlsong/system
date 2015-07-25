@@ -1,0 +1,174 @@
+#Sun Jun 15 19:27:54 CST 2014
+/instance/org.eclipse.wst.jsdt.web.core/jspIndexState=1
+/instance/org.eclipse.mylyn.context.core/mylyn.attention.migrated=true
+/instance/org.eclipse.mylyn.java.ui/org.eclipse.mylyn.java.ui.run.count.3_1_0=1
+/instance/org.eclipse.ui.ide/EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
+/instance/org.eclipse.mylyn.tasks.ui/migrated.task.repositories.secure.store=true
+/instance/com.android.ide.eclipse.adt/com.android.ide.eclipse.adt.xmlEditor=true
+/instance/org.eclipse.mylyn.java.ui/org.eclipse.mylyn.java.ui.run.count.3_10_0=1
+@org.eclipse.rse.ui=3.3.100.201306211706
+/instance/org.eclipse.ui.views.log/activate=true
+@org.eclipse.e4.ui.css.swt.theme=0.9.100.v20130515-1857
+@org.eclipse.m2e.discovery=1.4.1.20140328-1905
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+/instance/org.eclipse.ui.ide/platformState=1398236549855
+@org.eclipse.ui.ide=3.9.2.v20131004-0923
+@org.eclipse.jdt.core=3.9.50.v20140317-1741
+@org.eclipse.tm.terminal=3.2.100.201308011444
+/instance/org.eclipse.wst.sse.ui/content_assist_number_of_computers=18
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.javadoclocations.migrated=true
+@org.eclipse.mylyn.tasks.ui=3.9.2.v20140211-0100
+@org.eclipse.wst.sse.ui=1.3.201.v201401132128
+/instance/org.eclipse.debug.ui/preferredTargets=default\:default|
+/instance/org.eclipse.rse.core/useridperkey=AI.Local\=evatlsong;
+@org.springsource.ide.eclipse.gradle.core=3.5.1.201404300713-RELEASE
+/configuration/org.eclipse.ui.ide/SHOW_WORKSPACE_SELECTION_DIALOG=false
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+/instance/org.eclipse.ant.ui/useQuickDiffPrefPage=true
+@org.eclipse.team.ui=3.7.1.v20130729-1104
+/instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1397792864874" defaultVMConnector\="">\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\n<vm id\="1397792864874" name\="java-7-openjdk-amd64" path\="/usr/lib/jvm/java-7-openjdk-amd64">\n<libraryLocations>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar" jreJavadoc\="http\://download.oracle.com/javase/7/docs/api/" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar" jreJavadoc\="http\://download.oracle.com/javase/7/docs/api/" jreSrc\="/usr/lib/jvm/java-7-openjdk-i386/src.zip" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar" jreJavadoc\="http\://download.oracle.com/javase/7/docs/api/" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar" jreJavadoc\="http\://download.oracle.com/javase/7/docs/api/" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar" jreJavadoc\="http\://download.oracle.com/javase/7/docs/api/" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar" jreJavadoc\="http\://download.oracle.com/javase/7/docs/api/" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/pulse-java.jar" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar" jreSrc\="" pkgRoot\=""/>\n<libraryLocation jreJar\="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar" jreSrc\="" pkgRoot\=""/>\n</libraryLocations>\n</vm>\n</vmType>\n</vmSettings>\n
+/instance/org.eclipse.ui.workbench/PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
+/instance/org.eclipse.ui.editors/lineNumberRuler=true
+/instance/org.eclipse.team.cvs.ui/pref_first_startup=false
+/instance/org.eclipse.mylyn.tasks.ui/org.eclipse.mylyn.tasks.ui.filters.nonmatching.encouraged=true
+/instance/org.eclipse.wst.server.core/module-start-timeout=300000
+/instance/org.eclipse.ui.ide/quickStart=false
+\!/=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.source=1.7
+/instance/org.springframework.ide.eclipse.config.ui//com.springsource.config.ui.prefs.activePageIndex\:/spring-petclinic/src/main/resources/spring/business-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+/instance/org.eclipse.ui.ide/tipsAndTricks=true
+/instance/org.eclipse.jdt.ui/tabWidthPropagated=true
+/instance/com.atlassian.connector.eclipse.jira.ui/secure_storage.migration.done=true
+@org.eclipse.rse.core=3.3.100.201307171557
+@org.eclipse.debug.ui=3.9.0.v20130516-1713
+/instance/org.eclipse.ui.editors/overviewRuler_migration=migrated_3.1
+@org.eclipse.ui.workbench=3.105.2.v20140211-1711
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.code_templates_migrated=true
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.classpathVariable.JRE_LIB=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/instance/org.eclipse.mylyn.monitor.ui/org.eclipse.mylyn.monitor.activity.tracking.enabled.checked=true
+@org.springsource.ide.eclipse.commons.core=3.5.1.201404300702-RELEASE
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.internal.ui.navigator.layout=2
+/instance/org.eclipse.mylyn.tasks.ui/migrated.task.repositories.keyring=true
+@org.eclipse.ant.ui=3.5.400.v20140203-1328
+/instance/org.springsource.ide.eclipse.commons.core/dashboard.feeds.blogs=https\://spring.io/blog.atom
+/instance/org.eclipse.ui/showIntro=false
+/instance/org.eclipse.ui.views.log/orderType=1
+@org.springsource.ide.eclipse.commons.configurator=3.5.1.201404300702-RELEASE
+/instance/org.eclipse.team.ui/org.eclipse.team.ui.first_time=false
+/instance/org.eclipse.wst.jsdt.ui/org.eclipse.wst.jsdt.ui.editor.tab.width=
+/instance/org.eclipse.wst.jsdt.ui/org.eclipse.wst.jsdt.ui.javadoclocations.migrated=true
+/instance/org.eclipse.ui.workbench//org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
+@org.eclipse.ui.browser=3.4.100.v20130527-1656
+@org.eclipse.wst.server.core=1.5.100.v20140109_1422
+/instance/org.eclipse.pde.api.tools/knownEEFragments=
+/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES_PROTOCOL=3
+/configuration/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
+/instance/org.eclipse.ajdt.ui/ajde.version.at.previous.startup=2.2.4.e43x-20140320-1000
+/instance/org.eclipse.e4.ui.css.swt.theme/themeid=org.eclipse.e4.ui.css.theme.e4_classic
+@org.eclipse.egit.core=3.2.0.201312181205-r
+/instance/org.eclipse.wst.ws.service.policy/org.eclipse.wst.ws.service.policy.ui.servicepols.wsiprofilecomp.wsiap.defaultProtocol=http\://schemas.xmlsoap.org/wsdl/soap/
+/instance/org.eclipse.jdt.ui/useQuickDiffPrefPage=true
+/instance/org.eclipse.jdt.ui/content_assist_proposals_foreground=60,60,60
+/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories=/home/evatlsong/Code/sia3-code/.git\:/home/evatlsong/workspace/opensource_workspace/spring-mvc-showcase/.git\:/home/evatlsong/OpenSource/spring-mvc-showcase/.git\:/home/evatlsong/OpenSource/spring-petclinic/.git\:/home/evatlsong/OpenSource/jeecg/.git\:
+/instance/org.eclipse.wst.jsdt.ui/fontPropagated=true
+/instance/org.springsource.ide.eclipse.dashboard.ui/dashboard.feed.springio.migration=true
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+@org.eclipse.jdt.ui=3.9.50.v20140317-1811
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+L"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+SHIFT+L"/>\n</org.eclipse.ui.commands>
+/instance/org.eclipse.jdt.ui/useAnnotationsPrefPage=true
+/instance/org.eclipse.ui.ide/PROBLEMS_FILTERS_MIGRATE=true
+/instance/org.springsource.ide.eclipse.gradle.core/org.springsource.ide.eclipse.gradle.ui.wizards.GradleImportWizardPageOne.RF_HIST=/home/evatlsong/Code/sia3-code/SpringPizza;
+/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=/home/evatlsong/workspace/opensource_workspace\n/home/evatlsong/workspace/test_workspace\n/home/evatlsong/workspace/spring_workspace\n/home/evatlsong/workspace/java_workspace
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.formatterprofiles.version=12
+/instance/org.eclipse.tm.terminal/TerminalPref.migrated=true
+/instance/org.eclipse.wst.sse.ui/useQuickDiffPrefPage=true
+/instance/org.springframework.ide.eclipse.config.ui//com.springsource.config.ui.prefs.activePageIndex\:/spring-petclinic/src/main/resources/spring/datasource-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+/instance/org.eclipse.ui.views.log/groupBy=0
+@com.android.ide.eclipse.adt=22.6.2.v201403212031-1085508
+/instance/org.springsource.ide.eclipse.commons.frameworks.core/org.springsource.ide.eclipse.commons.frameworks.ui.legacyconversion.done=true
+file_export_version=3.0
+@org.eclipse.mylyn.context.core=3.9.2.v20140211-0100
+@org.eclipse.ajdt.ui=2.2.4.e43x-20140320-1000
+/instance/org.eclipse.rse.core/activeuserprofiles=AI;Team
+/instance/org.eclipse.ui.browser/browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="0">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n</web-browsers>
+/configuration/org.eclipse.ui.ide/MAX_RECENT_WORKSPACES=5
+/instance/org.eclipse.ant.ui/useAnnotationsPrefPage=true
+/instance/org.eclipse.jdt.ui/spelling_locale_initialized=true
+/instance/org.eclipse.jdt.ui/content_assist_number_of_computers=26
+/instance/org.springsource.ide.eclipse.gradle.core/needsMigration=false
+/instance/org.springframework.ide.eclipse.boot/default.install=Boot 1.0.0.RELEASE
+@org.eclipse.wst.xml.ui=1.1.401.v201308132110
+/instance/org.eclipse.wst.ws.service.policy/org.eclipse.wst.ws.service.policy.ui.servicepols.wsiprofilecomp.wsissbp.defaultProtocol=http\://schemas.xmlsoap.org/wsdl/soap/
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+@org.springframework.ide.eclipse.config.ui=3.5.0.201404011509-RELEASE
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.editor.tab.width=
+/instance/org.springframework.ide.eclipse.boot/installs=http\://repo.spring.io/release/org/springframework/boot/spring-boot-cli/1.0.0.RELEASE/spring-boot-cli-1.0.0.RELEASE-bin.zip\\;Boot 1.0.0.RELEASE\\;;
+@org.springsource.ide.eclipse.commons.ui=3.5.1.201404300702-RELEASE
+/instance/org.springframework.ide.eclipse.config.ui//com.springsource.config.ui.prefs.activePageIndex\:/jeecg/src/main/resources/spring-mvc-hibernate.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+@org.eclipse.mylyn.java.ui=3.9.2.v20140211-0100
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.compliance=1.7
+/instance/org.springsource.ide.eclipse.commons.ui/show.tip=false
+/instance/com.android.ide.eclipse.adt/com.android.ide.eclipse.adt.sdk=/opt/android-sdk-linux
+/instance/org.eclipse.ui.views.log/show_filter_text=true
+/instance/org.eclipse.jdt.ui/content_assist_disabled_computers=org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000
+/instance/org.eclipse.wst.xml.ui/org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart.lastActivePage=1
+/instance/org.eclipse.mylyn.tasks.ui/org.eclipse.mylyn.tasks.ui.filters.nonmatching=true
+/instance/org.springsource.ide.eclipse.dashboard.ui/org.springsource.ide.eclipse.dashboard.uidashboard.startup=false
+@org.springsource.ide.eclipse.commons.frameworks.core=3.5.1.201404300702-RELEASE
+@org.eclipse.ui.editors=3.8.100.v20130513-1637
+/instance/org.eclipse.wst.jsdt.ui/org.eclipse.jface.textfont=1|Monospace|10.0|0|GTK|1|;
+@org.eclipse.wst.jsdt.ui=1.1.401.v201401171657
+/instance/org.eclipse.core.resources/version=1
+/instance/org.eclipse.wst.jsdt.ui/tabWidthPropagated=true
+@org.eclipse.wst.ws.service.policy=1.0.303.v201009221810
+/instance/org.eclipse.wst.jsdt.ui/useAnnotationsPrefPage=true
+/instance/org.eclipse.wst.jsdt.ui/org.eclipse.wst.jsdt.ui.formatterprofiles.version=11
+@org.eclipse.mylyn.monitor.ui=3.9.2.v20140211-0100
+/instance/org.eclipse.jdt.ui/proposalOrderMigrated=true
+/instance/org.eclipse.jdt.ui/content_assist_proposals_background=255,255,255
+@org.eclipse.core.resources=3.8.101.v20130717-0806
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+/instance/org.eclipse.jst.j2ee.webservice.ui/areThereWebServices=false
+/instance/org.eclipse.jdt.ui/org.eclipse.jface.textfont=1|Monospace|10.0|0|GTK|1|;
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.classpathVariable.M2_REPO=/home/evatlsong/.m2/repository
+/instance/org.springframework.ide.eclipse.config.ui//com.springsource.config.ui.prefs.activePageIndex\:/spring-petclinic/src/main/resources/spring/tools-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+/instance/org.eclipse.rse.core/org.eclipse.rse.systemtype.local.systemType.defaultUserId=evatlsong
+@org.eclipse.jdt.launching=3.7.50.v20140317-1921
+@org.eclipse.team.cvs.ui=3.3.600.v20130514-1224
+/instance/org.eclipse.m2e.discovery/org.eclipse.m2e.discovery.pref.projects=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+/instance/org.eclipse.jdt.ui/fontPropagated=true
+/instance/org.eclipse.wst.jsdt.ui/proposalOrderMigrated=true
+@org.eclipse.ui.views.log=1.0.400.v20130515-2009
+@org.springframework.ide.eclipse.boot=3.5.0.201404011509-RELEASE
+/instance/org.eclipse.wst.sse.ui/useAnnotationsPrefPage=true
+/instance/org.eclipse.ui.views.log/column4=563
+/instance/org.eclipse.ui.views.log/column3=450
+/instance/org.eclipse.ui.views.log/column2=1032
+/configuration/org.eclipse.core.net/systemProxiesEnabled=false
+/instance/org.springframework.ide.eclipse.config.ui//com.springsource.config.ui.prefs.activePageIndex\:/spring-petclinic/src/main/resources/spring/mvc-core-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+@org.springsource.ide.eclipse.dashboard.ui=3.5.1.201404300702-RELEASE
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.templates_migrated=true
+/instance/org.springsource.ide.eclipse.commons.configurator/org.springsource.ide.eclipse.commons.configurator.processed=true
+@org.eclipse.wst.jsdt.web.core=1.0.700.v201307162035
+/instance/org.springsource.ide.eclipse.dashboard.ui/org.springsource.ide.eclipse.dashboard.uidashboard.use.old=true
+/instance/org.eclipse.epp.mpc.ui/CatalogDescriptor=http\://marketplace.eclipse.org
+/instance/org.eclipse.ui.workbench/ENABLED_DECORATORS=org.eclipse.jst.ws.jaxws.dom.integration.navigator.WebServiceDecorator\:true,org.eclipse.m2e.core.mavenVersionDecorator\:false,org.eclipse.wst.server.ui.decorator\:false,org.eclipse.datatools.connectivity.sqm.core.internal.ui.explorer.DependencyDecoration\:true,org.eclipse.datatools.connectivity.sqm.core.internal.ui.explorer.ColumnDecoration\:true,org.eclipse.datatools.connectivity.sqm.core.internal.ui.explorer.ForeignKeyDecoration\:true,org.eclipse.datatools.connectivity.sqm.core.internal.ui.explorer.IndexTriggerDecoration\:true,org.eclipse.datatools.connectivity.internal.core.ui.bookmarkDecoration\:true,org.eclipse.datatools.connectivity.internal.core.ui.FilterNodeDecoration\:true,org.eclipse.datatools.connectivity.ui.decorator.contentextension\:false,org.eclipse.datatools.enablement.ingres.ui.providers.decorators.SynonymDecorationService\:true,org.eclipse.datatools.enablement.ingres.internal.ui.providers.decorators.ParameterDecorationService\:true,org.eclipse.datatools.enablement.sybase.asa.proxytabledecorator\:true,org.eclipse.datatools.enablement.sybase.ase.webservicetabledecorator\:true,org.eclipse.datatools.enablement.sybase.systemtabledecorator\:true,org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator\:true,org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:false,org.eclipse.jdt.ui.buildpath.decorator\:true,org.eclipse.jst.j2ee.internal.ui.util.AnnotationIconDecorator_ejb\:true,org.eclipse.jst.j2ee.navigator.internal.J2EEProjectDecorator\:true,org.eclipse.jst.jee.ui.internal.navigator.ejb.BeanDecorator\:true,org.eclipse.jst.jee.navigator.internal.JEEProjectDecorator\:true,org.eclipse.jst.j2ee.internal.ui.util.AnnotationIconDecorator_servlet\:true,org.eclipse.m2e.core.maven2decorator\:true,org.eclipse.mylyn.context.ui.decorator.interest\:true,org.eclipse.mylyn.tasks.ui.decorators.task\:true,org.eclipse.mylyn.team.ui.changeset.decorator\:true,org.eclipse.pde.ui.binaryProjectDecorator\:false,org.eclipse.rse.core.virtualobject.decorator\:true,org.eclipse.rse.core.binary.executable.decorator\:true,org.eclipse.rse.core.script.executable.decorator\:true,org.eclipse.rse.core.java.executable.decorator\:true,org.eclipse.rse.core.library.decorator\:true,org.eclipse.rse.core.link.decorator\:true,org.eclipse.rse.subsystems.error.decorator\:true,org.eclipse.team.cvs.ui.decorator\:true,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.SymlinkDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,org.eclipse.wst.jsdt.ui.override.decorator\:true,org.eclipse.wst.server.ui.navigatorDecorator\:true,
+/instance/org.eclipse.wst.jsdt.ui/useQuickDiffPrefPage=true
+/instance/com.android.ide.eclipse.adt/com.android.ide.eclipse.adt.fixLegacyEditors=1
+/instance/org.springframework.ide.eclipse.config.ui//com.springsource.config.ui.prefs.activePageIndex\:/spring-petclinic/src/main/resources/spring/mvc-view-config.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+/instance/org.eclipse.rse.ui/org.eclipse.rse.preferences.order.connections=AI.Local
+@org.eclipse.jst.j2ee.webservice.ui=1.1.500.v201105122000
+/configuration/org.eclipse.core.net/proxiesEnabled=false
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+/instance/org.eclipse.wst.server.core/runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<runtimes>\n  <runtime id\="VMware vFabric tc Server Developer Edition (Runtime) v2.9" id-set\="true" location\="/opt/sts-bundle/vfabric-tc-server-developer-2.9.5.SR1" name\="VMware vFabric tc Server Developer Edition (Runtime) v2.9" runtime-type-id\="com.vmware.server.tc.runtime.70" timestamp\="0"/>\n</runtimes>\n
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.7
+/instance/org.eclipse.ui.views.log/orderValue=-1
+/instance/org.springframework.ide.eclipse.config.ui//com.springsource.config.ui.prefs.activePageIndex\:/jeecg/src/main/resources/spring-mvc-timeTask.xml=<?xml version\="1.0" encoding\="UTF-8"?>\n<activePage index\="0"/>
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.classpathVariable.JRE_SRC=
+/instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_DEFAULT_ENVIRONMENTS_XML=
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="aspectj" deleted\="false" description\="adviceexecution pointcut (AspectJ)" enabled\="true" name\="adviceexecution">adviceexecution()</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="after returning advice (AspectJ)" enabled\="true" name\="after_returning">after(${args}) returning() \: ${pointcut_expression} {}</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="after throwing advice (AspectJ)" enabled\="true" name\="after_throwing">after(${args}) throwing() \: ${pointcut_expression} {}</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="around advice (AspectJ)" enabled\="true" name\="around">around(${args}) \: ${pointcut_expression} {}</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="before advice (AspectJ)" enabled\="true" name\="before">before(${args}) \: ${pointcut_expression} {}</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="call constructor pointcut (AspectJ)" enabled\="true" name\="call_cons">call(${modifier_pattern} ${type_pattern}.new(..))</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="call method declaration (AspectJ)" enabled\="true" name\="call_method">call(${modifiers_pattern} ${ret_type_pattern} ${type_pattern}.${id_pattern}(..))</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="cflow pointcut (AspectJ)" enabled\="true" name\="cflow">cflow(${pointcut_expression})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="cflowbelow pointcut (AspectJ)" enabled\="true" name\="cflowbelow">cflowbelow(${pointcut_expression})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="declare error (AspectJ)" enabled\="true" name\="dece">declare error \: ${pointcut_expression} \: "";</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="declare parents (AspectJ)" enabled\="true" name\="decp_extends">declare parents \: ${type_pattern} extends ${type};</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="declare parents (AspectJ)" enabled\="true" name\="decp_implements">declare parents \: ${type_pattern} implements ${type};</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="declare soft (AspectJ)" enabled\="true" name\="decs">declare soft \: ${exception_type} \: ${pointcut_expression};</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="declare warning (AspectJ)" enabled\="true" name\="decw">declare warning \: ${pointcut_expression} \: "";</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="execution of a constructor pointcut (AspectJ)" enabled\="true" name\="execution_cons">execution(${modifier_pattern} ${type_pattern}.new(..))</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="execution of a method pointcut (AspectJ)" enabled\="true" name\="execution_method">execution(${modifier_pattern} ${ret_type_pattern} ${type_pattern}.${id_pattern}(..))</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="get pointcut (AspectJ)" enabled\="true" name\="get">get(${modifier_pattern} ${ret_type_pattern} ${type_pattern}.${id_pattern})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="handler pointcut (AspectJ)" enabled\="true" name\="handler">handler(${type_pattern})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="initialization pointcut (AspectJ)" enabled\="true" name\="initialization">initialization(${modifier_pattern} ${type_pattern}.new(..))</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="pointcut declaration (AspectJ)" enabled\="true" name\="pc">pointcut ${name}() \: ${pointcut_expression};</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="percflow (AspectJ)" enabled\="true" name\="percflow">percflow(${pointcut_expression})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="percflowbelow (AspectJ)" enabled\="true" name\="percflowbelow">percflowbelow(${pointcut_expression})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="pertarget (AspectJ)" enabled\="true" name\="pertarget">pertarget(${pointcut_expression})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="perthis (AspectJ)" enabled\="true" name\="perthis">perthis(${pointcut_expression})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="pertypewithin (AspectJ)" enabled\="true" name\="pertypewithin">pertypewithin(${type_pattern})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="pointcut (AspectJ)" enabled\="true" name\="pointcut">pointcut ${name}(${args}) \: ${pointcut_expression};</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="preinitialization pointcut (AspectJ)" enabled\="true" name\="preinitialization">preinitialization(${modifier_pattern} ${type_pattern}.new(..))</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="set pointcut (AspectJ)" enabled\="true" name\="set">set(${modifier_pattern} ${ret_type_pattern} ${type_pattern}.${id_pattern})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="staticinitialization pointcut (AspectJ)" enabled\="true" name\="staticinitialization">staticinitialization(${type_pattern})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="thisJoinPoint (AspectJ)" enabled\="true" name\="thisJoinPoint">thisJoinPoint</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="thisJoinPointStaticPart (AspectJ)" enabled\="true" name\="thisJoinPointStaticPart">thisJoinPointStaticPart</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="within pointcut (AspectJ)" enabled\="true" name\="within">within(${type_pattern})</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="withincode of a constructor pointcut (AspectJ)" enabled\="true" name\="withincode_cons">withincode(${modifier_pattern} ${type_pattern}.new(..))</template><template autoinsert\="true" context\="aspectj" deleted\="false" description\="withincode of a method pointcut (AspectJ)" enabled\="true" name\="withincode_method">withincode(${modifier_pattern} ${ret_type_pattern} ${type_pattern}.${id_pattern}(..))</template></templates>
+@org.eclipse.epp.mpc.ui=1.2.1.v20140219-1000
+@org.eclipse.ui=3.105.0.v20130522-1122
+/instance/org.springsource.ide.eclipse.commons.core/content.descriptors=spring-defaults|http\://dist.springsource.com/release/STS/help/descriptors-3.0.xml\nspring-data-gemfire|https\://raw.github.com/SpringSource/spring-data-gemfire-sts-templates/master/builds/descriptor.xml\nspring-integration|https\://raw.github.com/SpringSource/spring-integration-templates/master/si-sts-templates/builds/descriptor.xml\n
+@org.eclipse.pde.api.tools=1.0.501.v20130807-1634

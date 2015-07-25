@@ -60,9 +60,10 @@ Bundle 'gmarik/vundle'
 "Bundle 'https://github.com/vim-scripts/taglist.vim.git'
 "Bundle 'https://github.com/vim-scripts/cscope.vim.git'
 "Bundle 'https://github.com/vim-scripts/OmniCppComplete.git'
-Bundle 'https://github.com/Rip-Rip/clang_complete.git'
+"Bundle 'https://github.com/Rip-Rip/clang_complete.git'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'https://github.com/terryma/vim-multiple-cursors.git'
+Bundle 'https://github.com/vim-scripts/JavaScript-Indent.git'
 
 filetype plugin indent on     " required!
 "

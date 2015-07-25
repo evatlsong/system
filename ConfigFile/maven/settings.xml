@@ -51,8 +51,7 @@ under the License.
         <!--This sends everything else to /public -->
         <id>nexus</id>
         <mirrorOf>*</mirrorOf>
-        <!--<url>http://localhost:8082/nexus/content/groups/public</url>-->
-        <url>http://nexus.goutrip.com/content/groups/public</url>
+        <url>http://localhost:8081/nexus/content/groups/public</url>
     </mirror>
 </mirrors>
 <profiles>
