@@ -12,7 +12,6 @@ rsync -avr --delete /home/evatlsong/software openwrt:/mnt/shares/evatlsong/
 rsync -avr --delete /home/evatlsong/Dropbox openwrt:/mnt/shares/evatlsong/
 rsync -avr --delete /home/evatlsong/Other openwrt:/mnt/shares/evatlsong/
 
-rsync -avr --delete /home/evatlsong/workspace openwrt:/mnt/shares/evatlsong/
 rsync -avr --delete /home/evatlsong/system openwrt:/mnt/shares/evatlsong/
 rsync -avr --delete /home/evatlsong/.jenkins openwrt:/mnt/shares/evatlsong/
 rsync -avr --delete /home/evatlsong/.m2 openwrt:/mnt/shares/evatlsong/
