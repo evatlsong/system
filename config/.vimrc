@@ -35,38 +35,45 @@ autocmd! bufwritepost _vimrc source %
 
 "                    vundle
 "
-" git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-" Launch vim, run :BundleInstall (or vim +BundleInstall +qall for CLI lovers)
-"
-" Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
-"
-" see :h vundle for more details or wiki for FAQ
-"
-" Vundle start (manager the plugin)
-filetype off
+" git clone https://github.com/VundleVim/Vundle.git ~/.vim/bundle/Vundle.vim
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
 
 " My Bundles here:
-"Bundle 'https://github.com/vim-scripts/taglist.vim.git'
-"Bundle 'https://github.com/vim-scripts/cscope.vim.git'
-"Bundle 'https://github.com/vim-scripts/OmniCppComplete.git'
-"Bundle 'https://github.com/Rip-Rip/clang_complete.git'
-Bundle 'plasticboy/vim-markdown'
-Bundle 'https://github.com/terryma/vim-multiple-cursors.git'
-Bundle 'https://github.com/vim-scripts/JavaScript-Indent.git'
+"Plugin 'https://github.com/vim-scripts/taglist.vim.git'
+"Plugin 'https://github.com/vim-scripts/cscope.vim.git'
+"Plugin 'https://github.com/vim-scripts/OmniCppComplete.git'
+"Plugin 'https://github.com/Rip-Rip/clang_complete.git'
+"Plugin 'https://github.com/vim-scripts/JavaScript-Indent.git'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'https://github.com/terryma/vim-multiple-cursors.git'
+Plugin 'mattn/emmet-vim'
 
-filetype plugin indent on     " required!
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
 "
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
 """"""""""""" end vundle
 
 " needs install plugin use vundle
