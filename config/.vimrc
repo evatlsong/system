@@ -8,6 +8,7 @@ language messages en_US.UTF-8 "set message encode
 set encoding=utf-8
 set langmenu=en_US.UTF-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set helplang=cn
 
 if !exists("syntax_on")
 syntax on
@@ -54,9 +55,12 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugin 'https://github.com/vim-scripts/OmniCppComplete.git'
 "Plugin 'https://github.com/Rip-Rip/clang_complete.git'
 "Plugin 'https://github.com/vim-scripts/JavaScript-Indent.git'
+"Plugin 'https://github.com/vim-latex/vim-latex.git'
+"Plugin 'https://github.com/Shougo/neocomplete.vim.git'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'https://github.com/terryma/vim-multiple-cursors.git'
 Plugin 'mattn/emmet-vim'
+Plugin 'editorconfig/editorconfig-vim'
 
 
 " All of your Plugins must be added before the following line
@@ -92,3 +96,13 @@ let g:vim_markdown_folding_disabled=1
 let g:vim_markdown_initial_foldlevel=1
 " vim-markdown config end
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""preview in brower
+" 在浏览器预览 for Linux
+function! ViewInBrowser(name)
+    let file = expand("%:p")
+    echo file
+    exe "!google-chrome" file
+endfunction
+nmap <Leader>gg :call ViewInBrowser("gg")<cr>
+
+set foldmethod=indent

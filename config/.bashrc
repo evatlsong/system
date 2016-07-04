@@ -113,7 +113,7 @@ if ! shopt -oq posix; then
   fi
 fi
 # export PATH=$PATH:/opt/Qt5/5.1.1/gcc_64/bin
-export JAVA_HOME="/opt/jdk1.7"
+export JAVA_HOME="/opt/jdk1.6"
 export JRE_HOME=$JAVA_HOME/jre
 export M2_HOME="/opt/maven"
 export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:$CLASSPATH
@@ -126,3 +126,5 @@ export PATH=$PATH:/opt/ant/bin
 export PATH=$PATH:$M2_HOME/bin
 export PATH=$PATH:/opt/gradle/bin
 
+export ZOOKEEPER_INSTALL=/opt/zookeeper
+export PATH=$PATH:$ZOOKEEPER_INSTALL/bin
