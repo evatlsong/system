@@ -36,7 +36,7 @@ autocmd! bufwritepost _vimrc source %
 
 "                    vundle
 "
-" git clone https://github.com/VundleVim/Vundle.git ~/.vim/bundle/Vundle.vim
+" git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
