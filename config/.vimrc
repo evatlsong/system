@@ -61,7 +61,11 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'https://github.com/terryma/vim-multiple-cursors.git'
 Plugin 'mattn/emmet-vim'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'pangloss/vim-javascript'
 
+Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -95,6 +99,19 @@ let Tlist_Exit_OnlyWindow=1
 let g:vim_markdown_folding_disabled=1
 let g:vim_markdown_initial_foldlevel=1
 " vim-markdown config end
+
+
+set rtp+=/home/evatlsong/.local/lib/python3.5/site-packages/powerline/bindings/vim
+"powerline
+set laststatus=2
+set guifont=Inconsolata\ for\ Powerline:h15
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
+set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""preview in brower
 " 在浏览器预览 for Linux
