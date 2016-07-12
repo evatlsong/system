@@ -31,6 +31,7 @@ set ruler
 set incsearch     
 set hlsearch   
 set autochdir 
+set relativenumber
 
 autocmd! bufwritepost _vimrc source %
 
@@ -61,6 +62,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'https://github.com/terryma/vim-multiple-cursors.git'
 Plugin 'mattn/emmet-vim'
 Plugin 'editorconfig/editorconfig-vim'
+Bundle 'Valloric/YouCompleteMe'
 
 
 " All of your Plugins must be added before the following line
