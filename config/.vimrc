@@ -107,6 +107,10 @@ function! ViewInBrowser(name)
     echo file
     exe "!google-chrome" file
 endfunction
+
+let mapleader=','
 nmap <Leader>gg :call ViewInBrowser("gg")<cr>
+
+nmap <Leader>ne :NERDTreeToggle<cr>
 
 set foldmethod=indent
