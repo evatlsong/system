@@ -1,0 +1,11 @@
+[user]
+	name = evatlsong
+	email = evatlsong@gmail.com
+[push]
+	default = simple
+[core]
+	editor = vim
+[alias]
+	lg = log --oneline --all --graph --decorate --color
+[pretty]
+	graph = %C(auto)%h %C(auto)%d %s %Cgreen(%ci) %C(blue)<%an>
