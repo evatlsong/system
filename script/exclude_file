@@ -9,3 +9,4 @@ bower_components
 .settings
 .classpath
 .project
+.DS_Store
