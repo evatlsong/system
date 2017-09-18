@@ -19,4 +19,4 @@ stable" \
 && apt-get install -y docker-ce \
 && echo "install docker finish" \
 && groupadd docker \
-&& usermod -aG docker $USER
+# && usermod -aG docker $USER
