@@ -19,4 +19,5 @@ stable" \
 && apt-get install -y docker-ce \
 && echo "install docker finish" \
 && groupadd docker \
-# && usermod -aG docker $USER
+&& usermod -aG docker $USER \
+&& echo "Log out and log back in so that your group membership is re-evaluated"
