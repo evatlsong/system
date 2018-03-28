@@ -1,5 +1,10 @@
 #! /bin/sh
 echo 'enter openwrt start nfs'
+ping -c 3 -W 5 openwrt
+if [[ $? != 0 ]]; then
+    echo " can not connect "
+    exit 0
+fi
 ssh openwrt\
     'mount -t ext4 /dev/sda1 /mnt/share/ \
     && /etc/init.d/portmap start \
