@@ -1,0 +1,107 @@
+set nocompatible              " be iMproved, required
+
+colorscheme desert
+set guioptions-=m
+set guioptions-=T
+
+language messages en_US.UTF-8 "set message encode
+set encoding=utf-8
+set langmenu=en_US.UTF-8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set helplang=cn
+
+if !exists("syntax_on")
+syntax on
+endif
+
+set nu!   "open number line
+set nowrap       
+set filetype=c      
+set tabstop=4       
+set softtabstop=4
+set shiftwidth=4    
+set expandtab
+set cindent         
+set smartindent     
+set autoindent      
+set ai!             
+set nocp            
+set backspace=indent,eol,start 
+set ruler           
+set incsearch     
+set hlsearch   
+set autochdir 
+set relativenumber
+
+autocmd! bufwritepost _vimrc source %
+
+" Place the following code in your .vimrc before plug#begin() call
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/plugged')
+
+" My Bundles here:
+"Plugin 'https://github.com/vim-scripts/taglist.vim.git'
+"Plugin 'https://github.com/vim-scripts/cscope.vim.git'
+"Plugin 'https://github.com/vim-scripts/OmniCppComplete.git'
+"Plugin 'https://github.com/Rip-Rip/clang_complete.git'
+"Plugin 'https://github.com/vim-scripts/JavaScript-Indent.git'
+"Plugin 'https://github.com/vim-latex/vim-latex.git'
+"Plugin 'https://github.com/Shougo/neocomplete.vim.git'
+Plug 'plasticboy/vim-markdown'
+Plug 'https://github.com/terryma/vim-multiple-cursors.git'
+Plug 'mattn/emmet-vim'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'vimwiki/vimwiki'
+Plug 'suan/vim-instant-markdown'
+"Plug 'Valloric/YouCompleteMe'
+Plug 'scrooloose/nerdtree'
+Plug 'jlanzarotta/bufexplorer'
+
+call plug#end()
+
+" needs install plugin use vundle
+
+" taglist
+" set tags+=~/.vim/systags
+"set tags+=/usr/include/qt4/tags
+"set tags=tags;
+"set cscopequickfix=s-,c-,d-,i-,t-,e- 
+
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+
+" vim-markdown config start
+let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_initial_foldlevel=1
+" vim-markdown config end
+
+" vimwiki start
+" 把vimwiki的后缀改成了markdown，使用markdown语法而不是维基语法
+let g:vimwiki_list = [{'path': '~/vimwiki/private/', 'ext': '.markdown', 'syntax': 'markdown'},
+                    \ {'path': '~/vimwiki/work/', 'ext': '.markdown', 'syntax': 'markdown'}]
+" 只在根目录下面把markdown识别为vimwiki格式，在其他地方还是使用vim自己的markdown处理
+let g:vimwiki_global_ext = 0 
+" instand-markdown的设置，不自动开启，并且把映射键位改成<Leader>md
+let g:instant_markdown_autostart = 0	"disable autostart
+" vimwiki end
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""preview in brower
+" 在浏览器预览 for Linux
+function! ViewInBrowser(name)
+    let file = expand("%:p")
+    echo file
+    exe "!google-chrome" file
+endfunction
+
+let mapleader=','
+nmap <leader>md :InstantMarkdownPreview<cr>
+nmap <Leader>gg :call ViewInBrowser("gg")<cr>
+
+nmap <Leader>ne :NERDTreeToggle<cr>
+
+set foldmethod=indent
