@@ -2,10 +2,10 @@
 # 递归目录查找文件
 # 若是文件则计算他的md5 根据md5在目标目录检测并建立文件夹 并将文件拷贝过去 
 
-target="./dest"
+target="$2"
 md5:cp() {
     echo "$1 >> $2"
-    #cp "$1" "$2"
+    cp "$1" "$2"
 }
 
 md5:cpfolder() {
@@ -28,9 +28,12 @@ md5:cpfolder() {
             echo "mkdir foler ${destfolder}"
             mkdir -p "${destfolder}"
         fi
+        if [ -f "${destfolder}/${fileName}.${file##*.}" ]; then 
+            continue
+        fi
         md5:cp "$file" "${destfolder}/${fileName}.${file##*.}"
     fi
     done
 }
 
-md5:cpfolder ./nerc-solr-config
+md5:cpfolder "$1"
