@@ -10,6 +10,8 @@ command[5]="~/SourceCode/OpenSource/rsync-time-backup/rsync_tmbackup.sh pi:/medi
 
 command[6]="rsync -avr --delete /Users/evatlsong/.ssh/ pi:/media/pi/WD/evatlsong/private/ssh/ --exclude-from exclude_file"
 command[7]="rsync -avr --delete /Users/evatlsong/.password-store/ pi:/media/pi/WD/evatlsong/private/password-store/ --exclude-from exclude_file"
+command[8]="rsync -avr --delete /Users/evatlsong/system/ pi:/media/pi/WD/evatlsong/system/ --exclude-from exclude_file"
+command[9]="rsync -avr --delete /Users/evatlsong/Note/ pi:/media/pi/WD/evatlsong/Note/ --exclude-from exclude_file"
 
 echo "----------------------------------"
 echo "please enter your choise (split with blank space):"
@@ -27,8 +29,10 @@ echo ""
 echo "mac to pi"
 echo "(6) ${command[6]}"
 echo "(7) ${command[7]}"
+echo "(8) ${command[8]}"
+echo "(9) ${command[9]}"
 echo ""
-echo "(9) Exit Menu"
+echo "(10) Exit Menu"
 echo "----------------------------------"
 read -p "Your select : " input   #输入格式空格分隔 如需别的格式后面for语句$input用awk处理
 for i in $input
