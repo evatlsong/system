@@ -17,31 +17,35 @@ command[10]="rsync -avr --delete /Users/evatlsong/vivo/ pi:/media/pi/WD/liuqiuji
 
 echo "----------------------------------"
 echo "please enter your choise (split with blank space):"
-echo ""
-echo "mac to pi and repository"
-echo "(0) ${command[0]}"
-echo "(1) ${command[1]}"
-echo "(2) ${command[2]}"
-echo "(3) ${command[3]}"
-echo ""
-echo "pi to repository"
-echo "(4) ${command[4]}"
-echo "(5) ${command[5]}"
-echo ""
-echo "mac to pi"
-echo "(6) ${command[6]}"
-echo "(7) ${command[7]}"
-echo "(8) ${command[8]}"
-echo "(9) ${command[9]}"
-echo ""
-echo "(10) ${command[10]}"
-echo "(11) Exit Menu"
+#echo ""
+#echo "mac to pi and repository"
+#echo "(0) ${command[0]}"
+#echo "(1) ${command[1]}"
+#echo "(2) ${command[2]}"
+#echo "(3) ${command[3]}"
+#echo ""
+#echo "pi to repository"
+#echo "(4) ${command[4]}"
+#echo "(5) ${command[5]}"
+#echo ""
+#echo "mac to pi"
+#echo "(6) ${command[6]}"
+#echo "(7) ${command[7]}"
+#echo "(8) ${command[8]}"
+#echo "(9) ${command[9]}"
+#echo ""
+#echo "(10) ${command[10]}"
+#echo "(11) Exit Menu"
 echo "----------------------------------"
-read -p "Your select : " input   #输入格式空格分隔 如需别的格式后面for语句$input用awk处理
-for i in $input
+
+IFSBAK=$IFS # 保存默认的IFS
+IFS=$'\n'   #指定分隔符
+select c in ${command[*]}
 do
-    eval "${command[i]} &"
+     eval "$c &"
 done
+IFS=$IFSBAK  # 还原默认分隔符
 wait
+
 echo "----------------------------------"
 echo "task finish"
