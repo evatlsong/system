@@ -13,6 +13,8 @@ command[7]="rsync -avr --delete /Users/evatlsong/.password-store/ pi:/media/pi/W
 command[8]="rsync -avr --delete /Users/evatlsong/system/ pi:/media/pi/WD/evatlsong/system/ --exclude-from exclude_file"
 command[9]="rsync -avr --delete /Users/evatlsong/Note/ pi:/media/pi/WD/evatlsong/Note/ --exclude-from exclude_file"
 
+command[10]="rsync -avr --delete /Users/evatlsong/vivo/ pi:/media/pi/WD/liuqiujin/vivo/ --exclude-from exclude_file"
+
 echo "----------------------------------"
 echo "please enter your choise (split with blank space):"
 echo ""
@@ -32,7 +34,8 @@ echo "(7) ${command[7]}"
 echo "(8) ${command[8]}"
 echo "(9) ${command[9]}"
 echo ""
-echo "(10) Exit Menu"
+echo "(10) ${command[10]}"
+echo "(11) Exit Menu"
 echo "----------------------------------"
 read -p "Your select : " input   #输入格式空格分隔 如需别的格式后面for语句$input用awk处理
 for i in $input
